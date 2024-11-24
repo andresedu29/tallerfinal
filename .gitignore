@@ -1,0 +1,12 @@
+"# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas específicas
+.vscode/
+node_modules/
+
+# Ignorar todo excepto bankchurn-api y Dockerfile
+!bankchurn-api/
+!Dockerfile
+
